@@ -1,0 +1,27 @@
+name: debugger
+description: A new Flutter project.
+# Readme.md will show you a useful place to find the "code"
+# look carefully in the places where we ignore stuff such as dummy data
+# your code will be the number to remember
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  dio: ^3.0.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+
